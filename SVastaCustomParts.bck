@@ -1,0 +1,32 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CD74AC138E
+D Demultiplexer 8:1
+F http://www.ti.com/lit/ds/symlink/cd74ac138.pdf
+$ENDCMP
+#
+$CMP CD74AC151E
+D Multiplexer 8:1
+F http://www.ti.com/lit/ds/symlink/cd74ac151.pdf
+$ENDCMP
+#
+$CMP FDG6301N
+D Dual n-channel digital FET
+F https://www.onsemi.com/pub/Collateral/FDG6301N-D.PDF
+$ENDCMP
+#
+$CMP MCP73833
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22005b.pdf
+$ENDCMP
+#
+$CMP STC3100
+D I2C Battery monitor
+F https://www.st.com/content/ccc/resource/technical/document/datasheet/cb/7e/b5/82/36/e5/4c/f1/CD00219947.pdf/files/CD00219947.pdf/jcr:content/translations/en.CD00219947.pdf
+$ENDCMP
+#
+$CMP TRRS_SJ1-42514
+K TRRS, Audio
+F https://www.cui.com/product/resource/sj1-4251x-series.pdf
+$ENDCMP
+#
+#End Doc Library
