@@ -1,5 +1,15 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 0.91"_128x32_i2c_OLED
+D I2C 128x32px OLED display from Adafruit
+F https://www.adafruit.com/product/4440
+$ENDCMP
+#
+$CMP 0.91"_128x64_i2c_OLED
+D I2C 128x32px OLED display from Adafruit
+F https://www.amazon.com/IZOKEE-Display-SSD1306-Raspberry-Yellow-Blue-IIC/dp/B076PDVFQD?th=1
+$ENDCMP
+#
 $CMP CD74AC138E
 D Demultiplexer 8:1
 F http://www.ti.com/lit/ds/symlink/cd74ac138.pdf
@@ -10,13 +20,37 @@ D Multiplexer 8:1
 F http://www.ti.com/lit/ds/symlink/cd74ac151.pdf
 $ENDCMP
 #
+$CMP DMN5L06DMK-7‎
+D Dual n-channel digital FET
+F https://www.diodes.com/assets/Datasheets/ds30937.pdf
+$ENDCMP
+#
 $CMP FDG6301N
 D Dual n-channel digital FET
 F https://www.onsemi.com/pub/Collateral/FDG6301N-D.PDF
 $ENDCMP
 #
+$CMP INND-SS56
+D Inolux 7 Segment Display
+F http://www.inolux-corp.com/datasheet/Display/SMD-Display/INND-SS56%20Series_V1.0.pdf
+$ENDCMP
+#
+$CMP LM8364-2.2
+D Micropower Undervoltage Sensing Circuit - 2.2V
+F http://www.ti.com/lit/ds/symlink/lm8364.pdf
+$ENDCMP
+#
 $CMP MCP73833
 F http://ww1.microchip.com/downloads/en/DeviceDoc/22005b.pdf
+$ENDCMP
+#
+$CMP PI6ULS5V9511AWEX_I2C_HotSwap
+D Hot Swappable/Bidirectional Buffer for I2C bus
+F https://www.diodes.com/assets/Datasheets/PI6ULS5V9511A.pdf
+$ENDCMP
+#
+$CMP RKJXV1224005_ThumbJoystick
+F https://www.alps.com/prod/info/E/HTML/MultiControl/Potentiometer/RKJXK/RKJXV1224005.html
 $ENDCMP
 #
 $CMP STC3100
