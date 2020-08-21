@@ -5,6 +5,11 @@ D I2C 128x32px OLED display from Adafruit
 F https://www.amazon.com/IZOKEE-Display-SSD1306-Raspberry-Yellow-Blue-IIC/dp/B076PDVFQD?th=1
 $ENDCMP
 #
+$CMP 3v3VREF
+D 3.3 series voltage reference from ON Semiconductor
+F https://www.onsemi.com/pub/Collateral/NCP51460-D.PDF
+$ENDCMP
+#
 $CMP CD74AC138E
 D Demultiplexer 8:1
 F http://www.ti.com/lit/ds/symlink/cd74ac138.pdf
@@ -39,13 +44,29 @@ $CMP MCP73833
 F http://ww1.microchip.com/downloads/en/DeviceDoc/22005b.pdf
 $ENDCMP
 #
+$CMP PCA9306
+D Bi-directional Logic Level Shifter for i2c bus
+F https://www.ti.com/lit/ds/symlink/pca9306.pdf?ts=1590856580334
+$ENDCMP
+#
 $CMP PI6ULS5V9511AWEX_I2C_HotSwap
 D Hot Swappable/Bidirectional Buffer for I2C bus
 F https://www.diodes.com/assets/Datasheets/PI6ULS5V9511A.pdf
 $ENDCMP
 #
+$CMP PMW3360_Module
+D Motion sensor SPI module
+K mouse trackball motion spi
+F https://www.tindie.com/products/jkicklighter/pmw3360-motion-sensor/
+$ENDCMP
+#
 $CMP RKJXV1224005_ThumbJoystick
 F https://www.alps.com/prod/info/E/HTML/MultiControl/Potentiometer/RKJXK/RKJXV1224005.html
+$ENDCMP
+#
+$CMP SC18IS602B
+D NXP i2c to SPI bus bridge
+F https://www.nxp.com/docs/en/data-sheet/SC18IS602B.pdf
 $ENDCMP
 #
 $CMP STC3100
