@@ -1,4 +1,6 @@
-(module 128x64px_OLED_I2C (layer F.Cu) (tedit 5FB7472F)
+(module 128x64px_OLED_I2C (layer F.Cu) (tedit 5FB75713)
+  (descr "GeeekPi OLED display https://wiki.52pi.com/index.php/0.96_Inch_OLED_Module_SKU:_S-0005")
+  (tags "SSD1306 OLED I2C Display")
   (fp_text reference REF** (at 0 0.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
