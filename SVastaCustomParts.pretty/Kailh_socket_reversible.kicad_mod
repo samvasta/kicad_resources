@@ -33,4 +33,14 @@
   (pad "2" smd rect (at -7.56 -2.54) (size 2.55 2.5) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp 045febc9-e047-4136-b3c5-7c70a2fe3137))
   (pad "2" thru_hole circle (at -6.985 -3.81 180) (size 0.6 0.6) (drill 0.4) (layers *.Cu *.Mask) (tstamp 458ad1ee-7bcc-4d5f-9100-089ae4c007c9))
   (pad "2" smd rect (at -6.29 -5.08 180) (size 2.55 2.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 4f422c05-f348-45ee-a5be-6538277203b5))
+  (model "C:/Users/Sam/Documents/GitHub/wing-it-wireless/kicad_resources/SVastaCustomParts.pretty/SW_Hotswap_Kailh_MX.wrl"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model "C:/Users/Sam/Documents/GitHub/wing-it-wireless/kicad_resources/SVastaCustomParts.pretty/SW_Cherry_MX_PCB.wrl"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
